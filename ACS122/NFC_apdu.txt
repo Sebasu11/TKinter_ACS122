@@ -1,0 +1,29 @@
+; [1] Read the contents of block PWD
+;FF B0 00 2B 04 [xx xx xx xx] (9000)
+
+; [1] Read the contents of block PCK
+;FF B0 00 2C 04 [xx xx xx xx] (9000)
+
+; [1] Read the contents of block CFG0
+;FF B0 00 29 04 [xx xx xx xx] (9000)
+
+; [1] Read the contents of block CFG1
+;FF B0 00 2A 04 [xx xx xx xx] (9000)
+
+; [2] Update the content of Block PCK with the data "AA BB"
+;FF D6 00 2C 04 AA BB 00 00 (9000)
+
+; [2] Update the content of Block PWD with the data "AA BB CC DD"
+;FF D6 00 2B 04 AA BB CC DD (9000)
+
+; [2] Update the content of Block CFG0
+;FF D6 00 29 04 00 00 00 04 (9000)
+
+; [2] Update the content of Block CFG1
+;FF D6 00 2A 04 80 05 00 00 (9000)
+
+;Authentication
+;FF 00 00 00 07 D4 42 1B AA BB CC DD (9000)
+
+;FF D6 00 05 04 AA BB CC DD(9000)
+;FF B0 00 05 04 [xx xx xx xx](9000)
