@@ -83,13 +83,13 @@ buzzer = Buzzer(PIN_3)
 import os
 
 base_folder = os.path.dirname(__file__)
-image_path = os.path.join(base_folder, 'Inicial')
-image_path2 = os.path.join(base_folder, 'Valida')
-image_path3 = os.path.join(base_folder, 'NoValida')
-image_path4 = os.path.join(base_folder, 'Regrese')
-image_path5 = os.path.join(base_folder, 'Error')
-image_path6 = os.path.join(base_folder, 'Naranja')
-image_path7 = os.path.join(base_folder, 'Naranja')
+image_path = os.path.join(base_folder+'/imagenes', 'Inicial')
+image_path2 = os.path.join(base_folder+'/imagenes', 'Valida')
+image_path3 = os.path.join(base_folder+'/imagenes', 'NoValida')
+image_path4 = os.path.join(base_folder+'/imagenes', 'Regrese')
+image_path5 = os.path.join(base_folder+'/imagenes', 'Error')
+image_path6 = os.path.join(base_folder+'/imagenes', 'Naranja')
+image_path7 = os.path.join(base_folder+'/imagenes', 'Naranja')
 
 #image_path="Inicial"
 #image_path2="Valida"
