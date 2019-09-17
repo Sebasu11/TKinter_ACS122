@@ -18,7 +18,6 @@ sudo ./configure --with-drivers=all
 sudo make
 sudo make install
 
-
 ```
 Python packages
 ~~~Python
