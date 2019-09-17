@@ -16,7 +16,7 @@ Resolution 480*320: sudo ./LCD35_480*320
 Resolution 720*480: sudo ./LCD35_720*480
 Resolution 810*540: sudo ./LCD35_810*540
 ```
-Drivers
+Drivers [NFC](https://github.com/nfc-tools/libnfc/archive/libnfc-1.7.1.zip)
 ```Terminal
 sudo apt-get update
 
@@ -51,6 +51,8 @@ add the following line :
 ```
 sudo python2 path/main.py
 ```
-
-
+xscreensaver configurator
+```
+sudo apt-get install xscreensaver
+```
 **sebasuribe07@gmail.com**
